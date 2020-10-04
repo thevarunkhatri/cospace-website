@@ -32,7 +32,7 @@ nav {
 }
 
 nav img {
-    height: 60px;
+    height: 50px;
 }
 
 .hero {
@@ -43,8 +43,15 @@ nav img {
 .hero-main {
     height: 70vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-main img {
+    margin-top: 80px;
+    height: 60vh;
+    margin-right: 200px;
 }
 
 .hero-main p {
@@ -58,7 +65,31 @@ nav img {
 }
 
 main {
-    padding: 60px 0;
+    padding: 60px 0 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.users h1 {
+    
+}
+
+.two-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.two-grid ul {
+    list-style: none;
+}
+
+.two-grid img {
+    height: 150px;
+    border-radius: 75px;
 }
 
 .description {
@@ -68,13 +99,13 @@ main {
 }
 
 .description h1 {
-    text-align: center;
+    font-size: 36px;
     margin-bottom: 8px;
 }
 
 .description p {
+    font-size: 18px;
     max-width: 750px;
-    text-align: center;
 }
 
 footer {
@@ -86,4 +117,12 @@ footer p {
     font-size: 12px;
     color: white;
     text-align: center;
+}
+
+.gallery h1 {
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    max-width: 1200px;
 }
